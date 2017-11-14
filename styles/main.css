@@ -1,0 +1,104 @@
+html {
+    background-color: #3a393a;
+    margin: 10px;
+    color: white;
+}
+
+.header-box{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic {
+    height: 325px;
+    width: 250px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.name-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 33vw;
+}
+
+.stoked-tech {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 25px;
+    color: #ffc01f;
+}
+
+.list-content {
+    background-color: #545353;
+    padding: 10px;
+}
+
+h2 {
+    color: #ffc01f;
+    font-size: 20px;
+}
+
+li {
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-left: 15px;
+}
+
+.tech-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tech-image {
+    height: 100px;
+    width: 100px;
+}
+
+.container-as-row-with-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.last-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.excited {
+    width: 50vw;
+    display: flex;
+    justify-content: flex-start;
+    color: #ffc01f;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #ffc01f;
+    padding: 10px;
+}
+
+.react {
+    width: 50vw;
+    background-color: #545353;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    padding-top: 10px;
+}
